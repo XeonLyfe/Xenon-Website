@@ -1,0 +1,17 @@
+body {
+    background:   (-45deg, #ee7752,
+     #e73c7e, #23a6d5, #23d5ab);
+     background-size: 400% 400%;
+     animation: rainbow 15s ease infinite;
+}
+
+@keyframes rainbow {
+    0% { color: #d6baba9d; }
+    14% { color: #ff00c9; }
+    28% { color: #bf00ff; }
+    42% { color: #0088ff; }
+    56% { color: #00ff5e; }
+    70% { color: #ffbb00; }
+    84% { color: #ff0000; }
+    100% { color: #bea6a6; }
+}
